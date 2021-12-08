@@ -1,4 +1,4 @@
-import { createDOM, render } from './react';
+import { render } from './react';
 
 const vdom = {
     tag: 'p',

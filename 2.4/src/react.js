@@ -13,6 +13,10 @@ export function createDOM(node) {
         .forEach(element.appendChild.bind(element))
 
     return element;
+};
+
+export function createElement(tag, props, ...children) {
+    return { tag, props, children };
 }
 
 export function render(vdom, container) {
